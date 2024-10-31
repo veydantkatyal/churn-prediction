@@ -1,9 +1,6 @@
 # 🏦 Customer Churn Prediction using Multilayer Perceptron (MLP)
 
 ## 📚 Overview
-
-This project focuses on building a machine learning model using **Multilayer Perceptrons (MLP)** to predict customer churn for a business. **Customer churn** refers to the phenomenon where customers stop doing business with a company. By predicting which customers are likely to churn, businesses can implement effective strategies to retain those customers, improving customer lifetime value and reducing overall churn rate.
-
 In this project, we explore how MLP, a type of neural network, can be used to predict customer churn based on historical customer data. The model takes various customer features (such as usage patterns, contract type, and tenure) and predicts the probability that a customer will churn.
 
 ## ✨ Key Features
@@ -18,11 +15,11 @@ Customer churn is a critical business issue, especially in competitive industrie
 
 ## 🛠️ Technologies Used
 
-- 🐍 **Python** for coding and scripting.
-- 🔬 **Scikit-learn** for data preprocessing, model training, and evaluation.
-- 🔗 **TensorFlow/Keras** for building and training the MLP neural network.
-- 📑 **Pandas** for data manipulation and analysis.
-- 📊 **Matplotlib/Seaborn** for visualizing model performance and results.
+- 🐍 **Python**
+- 🔬 **Scikit-learn**
+- 🔗 **TensorFlow/Keras** 
+- 📑 **Pandas** 
+- 📊 **Matplotlib/Seaborn** 
 
 ## 📈 Project Workflow
 
@@ -59,7 +56,7 @@ Customer churn is a critical business issue, especially in competitive industrie
 
    ```bash
    git clone https://github.com/veydantkatyal/churn-prediction.git
-   cd churn-prediction-mlp
+   cd churn-prediction
 
 2. Install the required dependencies:
 
@@ -67,7 +64,7 @@ Customer churn is a critical business issue, especially in competitive industrie
    pip install -r requirements.txt
 
 ## 🗂️ Dataset
-Dwonload the dataset from Kaggle: [telco customer churn](https://www.kaggle.com/datasets/blastchar/telco-customer-churn)
+Download the dataset from Kaggle: [telco customer churn](https://www.kaggle.com/datasets/blastchar/telco-customer-churn)
 It Contains features like customer tenure, monthly charges, contract type, payment method, and whether or not a customer has churned.
 
 ## 📈 Results
@@ -78,4 +75,4 @@ Precision: 82%
 Recall: 88%
 F1-Score: 85%
 
-Visualizations like the confusion matrix e can be found in the results section of the colab notebook.
+Visualizations like the confusion matrix e can be found in the results section of the [Colab notebook](https://colab.research.google.com/github/veydantkatyal/churn-prediction/blob/main/churn_prediction.ipynb).
