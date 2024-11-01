@@ -15,11 +15,11 @@ Customer churn is a critical business issue, especially in competitive industrie
 
 ## 🛠️ Technologies Used
 
-- 🐍 **Python**
-- 🔬 **Scikit-learn**
-- 🔗 **TensorFlow/Keras** 
-- 📑 **Pandas** 
-- 📊 **Matplotlib/Seaborn** 
+🐍 **Python**
+🔬 **Scikit-learn**
+🔗 **TensorFlow/Keras** 
+📑 **Pandas** 
+📊 **Matplotlib/Seaborn** 
 
 ## 📈 Project Workflow
 
@@ -70,9 +70,9 @@ It Contains features like customer tenure, monthly charges, contract type, payme
 ## 📈 Results
 After training and tuning, the MLP model achieved the following results:
 
-Accuracy: 78%
-Precision: 82%
-Recall: 88%
-F1-Score: 85%
+- Accuracy: 78%
+- Precision: 82%
+- Recall: 88%
+- F1-Score: 85%
 
-Visualizations like the confusion matrix e can be found in the results section of the [Colab notebook](https://colab.research.google.com/github/veydantkatyal/churn-prediction/blob/main/churn_prediction.ipynb).
+Visualizations like the confusion matrix can be found in the results section of the [Colab notebook](https://colab.research.google.com/github/veydantkatyal/churn-prediction/blob/main/churn_prediction.ipynb).
